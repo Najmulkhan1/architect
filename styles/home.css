@@ -124,11 +124,14 @@ body{
 /* architect */
 
 .architect{
-    display: flex;
     width: 1380px;
     height: 1100px;
     margin: 0 auto;
-    gap: 146px;
+   
+}
+.main-a{
+    display: flex;
+     gap: 146px;
 }
 
 .line-h1{
@@ -153,4 +156,28 @@ body{
     margin-bottom: 20px;
     padding: 30px;
     border-radius: 8px;
+}
+
+.box-2{
+    background-color: #FF900E;
+    color: white;
+    height: 200px;
+    width:342px ;
+    padding: 42px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    left: 600px;
+    bottom: 120px;
+}
+
+.box-2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+}
+
+.box-2 p{
+    font-size: 25px;
 }
