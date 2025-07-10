@@ -20,7 +20,7 @@ body{
     align-items: center;
     width: 1380px;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 .nav-section h4{
@@ -270,7 +270,7 @@ body{
     background: #FFF4E7;
     width: 1380px;
     margin: 120px auto;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     text-align: center;
     padding: 40px 380px;
     border-radius: 8px;
