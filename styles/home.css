@@ -235,3 +235,31 @@ body{
     font-weight: 600;
     color: #727272;
 }
+
+/* sponsors-section */
+
+.sponsors-section{
+    width: 1380px;
+    margin: 120px auto;
+}
+
+.sponsor-article{
+    text-align: center;
+}
+
+.sponsor-article h1{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.sponsor-article p{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor-img{
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
