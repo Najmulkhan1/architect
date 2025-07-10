@@ -263,3 +263,20 @@ body{
     justify-content: space-around;
     filter: grayscale(100%);
 }
+
+/* footer section */
+
+.fooder-section{
+    background: #FFF4E7;
+    width: 1380px;
+    margin: 120px auto;
+    margin-bottom: 300px;
+    text-align: center;
+    padding: 40px 380px;
+    border-radius: 8px;
+}
+
+.fooder-section p{
+    font-size: 20px;
+    color: #424242;
+}
