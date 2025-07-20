@@ -122,7 +122,6 @@ body{
 
 .architect{
     width: 1380px;
-    height: 1100px;
     margin: 0 auto;
    
 }
@@ -284,7 +283,13 @@ body{
 
 
 @media screen and (max-width: 567px){
-    .nav-section, .nav-section ul, .features, .quick-section{
+    .nav-section, 
+    .nav-section ul, 
+    .features, 
+    .quick-section, 
+    .main-a, 
+    .facts-box,
+    .sponsor-img {
         flex-direction: column;
         width: 100%;
         align-items: center;
@@ -292,7 +297,7 @@ body{
     .nav-section ul{
         gap: 30px;
     }
-    .center img{
+    .center img, .architect-img img{
         width: 100%;
     }
 
@@ -301,6 +306,26 @@ body{
         
     }
 
+    .sponsor-img img{
+        padding: 10px;
+    }
+    .architect,
+    .facts-section,
+    .sponsors-section,
+    .fooder-section {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .box-2{
+        position: static;
+    }
+
+    .design{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .quick-article{
         margin-left: 20px;
     }
